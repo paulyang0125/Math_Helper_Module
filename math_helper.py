@@ -14,3 +14,6 @@ def divide(a, b):
     """Return the quotient of a and b. """
     return a / b
 
+def power(base, exponent):
+    """Return the base raised to the power of exponent."""
+    return base ** exponent
