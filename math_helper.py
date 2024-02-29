@@ -12,7 +12,10 @@ def multiply(a, b):
 
 def divide(a, b):
     """Return the quotient of a and b. """
-    return a / b
+    #return a / b
+    if b == 0:
+        raise ValueError("my qpp can't support this operation")
+    return a/b
 
 def power(base, exponent):
     """Return the base raised to the power of exponent."""
